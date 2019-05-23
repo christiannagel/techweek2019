@@ -20,9 +20,8 @@ namespace AsyncStreamsSample
 
             try
             {
-
                 var aDevice = new ADevice();
-                await foreach (var x in aDevice.GetSensorData1().WithCancellation(cts.Token))
+                await foreach (var x in aDevice.GetSensorData1(cts.Token)) //.WithCancellation(cts.Token))
                 {
                     Console.WriteLine($"{x.Value1} {x.Value2}");
                 }

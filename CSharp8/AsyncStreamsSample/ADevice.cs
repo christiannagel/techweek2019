@@ -21,7 +21,7 @@ namespace AsyncStreamsSample
             }
         }
 
-        public async IAsyncEnumerable<SensorData> GetSensorData1(/* [DefaultCancellation] */CancellationToken cancellationToken = default)
+        public async IAsyncEnumerable<SensorData> GetSensorData1(/* [DefaultCancellation] */ CancellationToken cancellationToken = default)
         {
             var r = new Random();
             while (true)
