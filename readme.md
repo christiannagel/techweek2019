@@ -42,6 +42,8 @@
 
 [Windows UI Library](https://github.com/microsoft/microsoft-ui-xaml)
 
+[Nullability Annotation Guideline for .NET Core](https://github.com/dotnet/corefx/blob/master/Documentation/api-guidelines/nullability.md)
+
 NuGet Packages for WPF:
 
 Use the Windows Runtime: Microsoft.Windows.SDK.Contracts
